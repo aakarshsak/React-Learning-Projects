@@ -1,0 +1,8 @@
+.Person {
+    background-color: antiquewhite;
+    margin : 10px;
+    border : 2px solid grey;
+    box-shadow: black;
+    padding : 10px;
+    color : blue;
+}
