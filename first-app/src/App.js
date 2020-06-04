@@ -56,7 +56,6 @@ class App extends Component{
 
     if(this.state.personShow){
       persons = (
-        <div>{
           this.state.persons.map( (person, index) => {
             return (
               <Person 
@@ -67,9 +66,7 @@ class App extends Component{
                 click={() => this.deleteHandler(index)}
                 />
             );
-          })
-        }
-        </div>
+          })  
       );
     } 
 
